@@ -1,5 +1,7 @@
+import Image from "../images/Hulu_(2).png";
+
 module.exports = {
     images: {
-        domains: ["links.papareact.com", "image.tmdb.org"],
+        domains: [Image, "image.tmdb.org"],
     },
 };

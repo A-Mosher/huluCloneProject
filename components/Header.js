@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "../images/Hulu_(2).png";
 
 export default function Header() {
     return (
@@ -6,7 +6,8 @@ export default function Header() {
             <h1>This is the header</h1>
             <Image
             className="object-contain"
-            src="https://links.papareact.com/au6"
+            src={Image}
+            alt='hulu logo image'
             width={200}
             height={100} />
         </header>
