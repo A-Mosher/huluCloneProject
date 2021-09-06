@@ -1,7 +1,7 @@
-import Image from "../images/Hulu_(2).png";
+import image from "../images/Hulu_(2).png";
 
 module.exports = {
     images: {
-        domains: [Image, "image.tmdb.org"],
+        domains: [{image}, "image.tmdb.org"],
     },
 };
