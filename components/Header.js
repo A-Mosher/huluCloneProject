@@ -1,10 +1,22 @@
+import {
+    BadgeCheckIcon,
+    CollectionIcon,
+    HomeIcon,
+    LightningBoltIcon,
+    SearchIcon,
+    UserIcon
+} from "@heroicons/react/outline";
+
 import Image from "next/image";
 import image from "../images/Hulu_(2).png";
+import HeaderItem from "./HeaderItem";
 
 export default function Header() {
     return (
         <header className=''>
-            <h1>This is the header</h1>
+            <div>
+                <HeaderItem title="HOME" Icon={HomeIcon} />
+            </div>
             <Image
             className="object-contain"
             src={image}
