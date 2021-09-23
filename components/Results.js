@@ -1,11 +1,13 @@
 import Thumbnail from "./Thumbnail";
 
-export default function Results({ results }) {
+function Results({ results }) {
     return (
         <div>
-           {results.map((result) => {
+           {results.map((result) => (
                <Thumbnail key={result.id} result={result} />
-           })} 
+           ))} 
         </div>
     );
 }
+
+export default Results;

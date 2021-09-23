@@ -5,7 +5,7 @@ function Thumbnail({ result }) {
 
     return (
         <div>
-            <Image
+            {/* <Image
                 alt=""
                 layout="responsive"
                 src={
@@ -15,9 +15,9 @@ function Thumbnail({ result }) {
                 height={1080}
                 width={1920}
             />
-            <div>
-                <p className="truncate">{result.overview}</p>
-            </div>
+            <div className="p-2">
+                <p className="truncate max-w-md">{result.overview}</p>
+            </div> */}
         </div>
     );
 }
