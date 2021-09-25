@@ -5,11 +5,11 @@ function Thumbnail({ result }) {
 
     return (
         <div>
-            {/* <Image
-                alt=""
+            <Image
                 layout="responsive"
                 src={
-                    `${BASE_URL}${result.backdrop_path || result.poster_path}` ||
+                    `${BASE_URL}${result.backdrop_path ||
+                    result.poster_path}` ||
                     `${BASE_URL}${result.poster_path}`
                 }
                 height={1080}
@@ -17,7 +17,7 @@ function Thumbnail({ result }) {
             />
             <div className="p-2">
                 <p className="truncate max-w-md">{result.overview}</p>
-            </div> */}
+            </div>
         </div>
     );
 }
